@@ -13,10 +13,15 @@ Mediante la implementación de este proyecto se busca la construcción de un car
 se desarrollan los modulos necesarioas para el funcionamiento del carro seguidor de linea , estos modulos los cargaremos en este github para mostrar los codigos utilizados y que hace cada codigo para el control y funcionamiento de cada sensor , este proyecto esta compuesto por los siguientes sensores
 
 ## sensores y actuadores
+
 1.motoreductor 3-9v derecho
+
 2.sensor infrarrojo derecho
-3.motoreductor 3-9v izquierao
+
+3.motoreductor 3-9v izquierdo
+
 4.sensor infrarrojo izquierdo
+
 ## funcionamiento
 funcionamiento del sensor infrarrojo:
 Emisión de Luz Infrarroja:
