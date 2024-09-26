@@ -52,3 +52,32 @@ a continuacion el esquema del puente H que elegimos , un L298n
 
 ![Puente H ](https://github.com/user-attachments/assets/bb365c9c-b175-48af-b4b5-19937b8bb02d)
 
+ Analizando el puente H que adquirimos ponemos analizar los pines para analizar como hacer la conexiones para logar el objetivo del proyecto, vemos que tiene una alimentacion de 12v y otra que puede funcionar como entrada o salida segun lo requiera , si se quiere que funcione como entrada hay que quitar quitar el jumper que mantiene la salida regulada, pero como salida es solo utilizarlo con el jumper y esta slaida proporcioanra 5v regulados que en este caso podria ser util para conectar la FPGA a este pin ya que requerimos tenerla encendida para sacar las seañales que diseñamos para el control del motor, por otro lado encontramos 6 pines ena1,in1,in2,in3,in4 y ena2 en este caso encontramos que in 1 y in 2 hacen el control de las salidas out 1 y out 2 es decir que con estas entradas controlamos uno de los motores por lo que en estos pines debemos conectar 1 pin a una de las salidas establecidas de la fpga y la otra a tiera y para in 3 y in 4 es lo mismo , las entradas de enable son para hacer el control de la velocidad mediante el mdoulo PWM por lo que debemos conectar estas salidas con las salidas establecidas del PWM en la FPGA
+
+primeramente hacemos el diseño del codigo en donde establecemos las entradas y salidas en este caso s1 y s2 son las entradas , y en salidas tenemos m1 y m2 cada sensor controla cada salida, siguiente a eso debemos establecer los pines donde van a entrar las señales a la fpga y los pines dode va a salir la señal de los motores , siendo asi.
+
+sensor 1 PIN 9
+sensor 2 PIN 16 
+
+
+motor 1 PIN 17
+motor 2 PIN 15
+
+CLK o reloj PIN 60
+PWM1 PIN 37
+PWM2 PIN 33
+
+Por lo que hacemos la conexion va a ser la siguiente desde la fpga hasta el puente h 
+
+PIN 9 conectado al out del sensor 1
+PIN 16 conectado al out de sensor 
+
+motor 1 PIN 17 conectada a in1
+motor 2 PIN 15 conectado a in3
+
+PWM1 PIN 37 conectado a ena1
+PWM2 PIN 33 conectado a ena2
+
+tambien establecemos la conexion para energizar los sensores , ya que la fpga nos suministra 3v de salida y gnd entonces
+![image](https://github.com/user-attachments/assets/f3e047d2-5e52-4065-a686-9f90964eef04)
+entonces hacemos las conexiones anteriormente establecidas al lado izquierdo de este esquema en la fpga,tambien el lado inferior de la imagen nos muestra otros pines , en este podemos tomar los pines de 5 v para alimentar la fpga ya que se convierte en entrada y el puente H nos suministra 5v regulados.
