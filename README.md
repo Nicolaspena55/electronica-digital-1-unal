@@ -80,4 +80,11 @@ PWM2 PIN 33 conectado a ena2
 
 tambien establecemos la conexion para energizar los sensores , ya que la fpga nos suministra 3v de salida y gnd entonces
 ![image](https://github.com/user-attachments/assets/f3e047d2-5e52-4065-a686-9f90964eef04)
+
 entonces hacemos las conexiones anteriormente establecidas al lado izquierdo de este esquema en la fpga,tambien el lado inferior de la imagen nos muestra otros pines , en este podemos tomar los pines de 5 v para alimentar la fpga ya que se convierte en entrada y el puente H nos suministra 5v regulados.
+
+la conexion de los motores si van directamente al puente H en los out que mencionamos mas arriba ya que las salidas de motor que tenemos en la fpga funcionan es para el control , apagar o prender el motor que controla cada sensor para mantenerse en la linea.
+
+en el caso de los enable esta entrada nos permite habilitar el pulso que programamos en el codigo para hacer el control de velocidad que se requiera.
+
+
