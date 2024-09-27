@@ -67,7 +67,7 @@ sensor 1 PIN 9
 sensor 2 PIN 16 
 
 
-motor 1 PIN 
+motor 1 PIN 17
 
 motor 2 PIN 15
 
