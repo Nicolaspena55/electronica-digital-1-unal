@@ -107,6 +107,7 @@ Duty cycle (ciclo de trabajo): Es la proporción del tiempo en que la señal est
 
 [![image.png](https://i.postimg.cc/CLrmCmfq/image.png)](https://postimg.cc/PPZWTbyX)
 ## Esquematico seguidor de linea 
+La fpga tiene la logica controla los motores y los PWM, los pines de esta se conectan a el driver L298N que estara conectado a los moteres y a la fuente de energía del circuito 
 [![image.png](https://i.postimg.cc/4NR8NBhv/image.png)](https://postimg.cc/w3F5w523)
 
 
