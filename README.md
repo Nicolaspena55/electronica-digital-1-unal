@@ -102,6 +102,8 @@ en el caso de los enable esta entrada nos permite habilitar el pulso que program
 
 ## Digrama de flujo 
 [![image.png](https://i.postimg.cc/rwB1wHvq/image.png)](https://postimg.cc/tszZrBqc)
+![Uploading image.png…]()
+
 ## Diagrama de bloques 
 [![image.png](https://i.postimg.cc/XqC5tLzJ/image.png)](https://postimg.cc/RJvqH795)
 ## Esquematico controlador motor
