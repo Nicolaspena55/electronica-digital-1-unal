@@ -2,6 +2,7 @@
 
 ## Integrantes
 Nicolas peña garzon
+
 victor sebastian santiago acosta 
 ## Descripcion y contexto del problema
 Mediante la implementación de este proyecto se busca la construcción de un carro seguidor de línea, el cual sea capaz de esquivar obstáculos y seguir una línea mediante diferentes implementaciones de sensores tales como lo son los sensores infrarrojos o el sensor de ultrasonido. A partir de estos sensores, queremos cumplir que el carrose mantenga en la linea mediante la progrmacion de una FPGA ice-40
