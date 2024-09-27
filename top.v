@@ -8,6 +8,7 @@ module top
   output wire tm1,
   output wire tm2,
   output wire PWM1
+   output wire pwm2
   
 );
 controlador_motor micontrolador_motor (
@@ -20,6 +21,11 @@ controlador_motor micontrolador_motor (
 pwm mipwm (
 .CLK(CLK1),
 .PWM(PWM1),
-.PWM(PWM2)
+
+);
+PWM2 mipwm (
+.CLK(CLK2),
+.PWM(PWM2),
+
 );
 endmodule
