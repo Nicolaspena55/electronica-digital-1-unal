@@ -101,6 +101,10 @@ en el caso de los enable esta entrada nos permite habilitar el pulso que program
 Los sensores infrarrojos  determinarán que dirección debe seguir el carro  si se activa el sensor izquierdo se activa el motor izquierdo por lo tanto el carro ira a la izquierda , si se activa el otro sensor se activara el motor derecho y deberá realizar un giro a la derecha en caso de que ambos sensores esten activados el carro ira derecho y si ninguno se activa el carro se detendra. 
 [![image.png](https://i.postimg.cc/pT1zSTDN/image.png)](https://postimg.cc/7G05GqsX)
 ## Esquematico PWM
+El PWM es una sirve para controlar la potencia suministrada en los  como motores. El PWM se utiliza para ajustar la velocidad de los motores mediante la variación de la proporción entre el tiempo que el motor está encendido (alto) y el tiempo que está apagado (bajo), conocido como ciclo de trabajo o duty cycle.
+
+Duty cycle (ciclo de trabajo): Es la proporción del tiempo en que la señal está en estado alto (encendida) durante un ciclo. Un duty cycle del 50% significa que la señal está encendida la mitad del tiempo y apagada la otra mitad, lo que resulta en una velocidad media.
+
 [![image.png](https://i.postimg.cc/CLrmCmfq/image.png)](https://postimg.cc/PPZWTbyX)
 ## Esquematico seguidor de linea 
 [![image.png](https://i.postimg.cc/4NR8NBhv/image.png)](https://postimg.cc/w3F5w523)
