@@ -123,7 +123,8 @@ https://youtu.be/kAsGApBmvmA
 prueba sensores
 https://youtu.be/ksQ-yB77qn0
 
-
+Prueba sensores 2
+https://youtu.be/G1jybRseQ5s?si=YUk4it_H8NBm0bn_
 
 
 
