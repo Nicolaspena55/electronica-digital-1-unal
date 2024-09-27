@@ -98,6 +98,7 @@ en el caso de los enable esta entrada nos permite habilitar el pulso que program
 ## Diagrama de bloques 
 [![image.png](https://i.postimg.cc/XqC5tLzJ/image.png)](https://postimg.cc/RJvqH795)
 ## Esquematico controlador motor
+Los sensores infrarrojos  determinarán que dirección debe seguir el carro  si se activa el sensor izquierdo se activa el motor izquierdo por lo tanto el carro ira a la izquierda , si se activa el otro sensor se activara el motor derecho y deberá realizar un giro a la derecha en caso de que ambos sensores esten activados el carro ira derecho y si ninguno se activa el carro se detendra. 
 [![image.png](https://i.postimg.cc/pT1zSTDN/image.png)](https://postimg.cc/7G05GqsX)
 ## Esquematico PWM
 [![image.png](https://i.postimg.cc/CLrmCmfq/image.png)](https://postimg.cc/PPZWTbyX)
