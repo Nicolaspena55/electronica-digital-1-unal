@@ -80,12 +80,15 @@ PWM2 PIN 33
 Por lo que hacemos la conexion va a ser la siguiente desde la fpga hasta el puente h 
 
 PIN 9 conectado al out del sensor 1
+
 PIN 16 conectado al out de sensor 
 
 motor 1 PIN 17 conectada a in1
+
 motor 2 PIN 15 conectado a in3
 
 PWM1 PIN 37 conectado a ena1
+
 PWM2 PIN 33 conectado a ena2
 
 tambien establecemos la conexion para energizar los sensores , ya que la fpga nos suministra 3v de salida y gnd entonces
