@@ -63,14 +63,18 @@ a continuacion el esquema del puente H que elegimos , un L298n
 primeramente hacemos el diseño del codigo en donde establecemos las entradas y salidas en este caso s1 y s2 son las entradas , y en salidas tenemos m1 y m2 cada sensor controla cada salida, siguiente a eso debemos establecer los pines donde van a entrar las señales a la fpga y los pines dode va a salir la señal de los motores , siendo asi.
 
 sensor 1 PIN 9
+
 sensor 2 PIN 16 
 
 
-motor 1 PIN 17
+motor 1 PIN 
+
 motor 2 PIN 15
 
 CLK o reloj PIN 60
+
 PWM1 PIN 37
+
 PWM2 PIN 33
 
 Por lo que hacemos la conexion va a ser la siguiente desde la fpga hasta el puente h 
