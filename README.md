@@ -93,4 +93,10 @@ la conexion de los motores si van directamente al puente H en los out que mencio
 
 en el caso de los enable esta entrada nos permite habilitar el pulso que programamos en el codigo para hacer el control de velocidad que se requiera.
 
+## Digrama de flujo 
+[![image.png](https://i.postimg.cc/rwB1wHvq/image.png)](https://postimg.cc/tszZrBqc)
+## Diagrama de bloques 
+[![image.png](https://i.postimg.cc/XqC5tLzJ/image.png)](https://postimg.cc/RJvqH795)
+
+
 
