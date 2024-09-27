@@ -97,6 +97,12 @@ en el caso de los enable esta entrada nos permite habilitar el pulso que program
 [![image.png](https://i.postimg.cc/rwB1wHvq/image.png)](https://postimg.cc/tszZrBqc)
 ## Diagrama de bloques 
 [![image.png](https://i.postimg.cc/XqC5tLzJ/image.png)](https://postimg.cc/RJvqH795)
+## Esquematico controlador motor
+[![image.png](https://i.postimg.cc/pT1zSTDN/image.png)](https://postimg.cc/7G05GqsX)
+## Esquematico PWM
+[![image.png](https://i.postimg.cc/CLrmCmfq/image.png)](https://postimg.cc/PPZWTbyX)
+## Esquematico seguidor de linea 
+[![image.png](https://i.postimg.cc/4NR8NBhv/image.png)](https://postimg.cc/w3F5w523)
 
 
 
